@@ -18,7 +18,7 @@ def add_expense(month):
     expense_type = input("Enter the type of expense(jedzenie, rozrywka, dom, inny): ")
 
     expense = (expense_amount, expense_type, month)
-    expenses.append(expense) hasattrs(expense)
+    expenses.append(expense)
 
 
 while True:
